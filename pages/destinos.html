@@ -6,36 +6,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Tripway | Destinos</title>
 </head>
 <body style="font-style:Arimo ">
    <nav>
-        <a href="../index.html">Tripway</a>
 
-        <ul>
-            <li><a href="../pages/pacotes.html">Pacotes</a></li>
-            <li><a href="../pages/contato.html">Contato</a></li>
+        <a class="logo" href="../index.html"><i class="fas fa-plane"></i>Tripway</a>
+
+        <ul class="nav-links">
+            <li><a class="nav-link" href="../index.html">Home</a></li>
+            <li><a class="nav-link"  href="../pages/pacotes.html">Pacotes</a></li>
+            <li><a class="nav-link" href="../pages/contato.html">Contato</a></li>
+            <li><a class="nav-link" id="nav-active" href="../pages/destinos.html">Destinos</a></li>
         </ul>
     </nav>
+    <header class="header-container">
+        <div class="hero-overlay">
+            <h1>Explore os Destinos dos Seus Sonhos</h1>
+            <p >Encontre o destino perfeito para suas próximas férias</p>
+         </div>
+
+    </header>
     
     <main>
+        <section class="service-section">
+            <div class="section-title">
+                <div class="line"></div>
+                <h2>Destinos</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="cards-container">
+                <article class="feature-card">
+                    <h3>Praia</h3>
+                    <p>Um destino com vistas lindas , mar e paz</p>
+                    <img src="../images/praia.jpg" alt="Imagem de Praia calma e pacifica" >
 
-        <h1>Destinos</h1>
-        
-        <section>
-          <h2>Praia</h2>
-          <p>Um destino com vistas lindas , mar e paz</p>
-          <img src="../images/praia.jpg" alt="Imagem de Praia calma e pacifica" width="500">
-          
-          <h2>Neve</h2>
-          <p>Um destino aconchegante , com possiveis aventuras</p>
-          <img src="../images/neve.jpg" alt="Vista de montanha com chales na neve" width = "500">
-          <h2>Cavernas</h2>
-          <p>Um destino para quem não tem medo de se aventurar e com vistas surpreendentes</p>
-          <img src="../images/caverna.jpg" alt="imagem de caverna com água" width="500">
-          
+                </article>
+                <article class="feature-card">
+                    <h3>Montanha</h3>
+                    <p>Um destino aconchegante , com possiveis aventuras</p>
+                    <img src="../images/montanha.jpg" alt="Vista dentro de uma chale para uma montanha de neve" >
+
+                </article>
+                <article class="feature-card">
+                    <h3>Grandes Cidades</h3>
+                    <p>Um destino para quem quer conhecer os locais mais famosos do mundo</p>
+                    <img src="../images/bigCities.jpg" alt="imagem de cidades famosas" >
+
+                </article>
+
+            </div>
+
         </section>
-        <a href="../index.html">Voltar</a>
     </main>
 </body>
 </html>
